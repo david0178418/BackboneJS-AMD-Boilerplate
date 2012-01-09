@@ -2,7 +2,7 @@
 	"use strict";
 	
 	define([
-		
+		'views/viewStub'
 	],
 		function() {
 			
@@ -11,6 +11,7 @@
 					console.log('Application initialized!');
 				}
 			};
+			
 		}
 	);
 })();
