@@ -2,6 +2,7 @@
 	"use strict";
 	
 	define([
+			'underscore',
 			'backbone'
 		],
 		function(Backbone) {

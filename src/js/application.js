@@ -2,15 +2,17 @@
 	"use strict";
 	
 	define([
-			'views/viewStub'
+			'jqueryLoader',
+			'views/main'
 		],
-		function() {
+		function($, MainView) {
 			
 			return {
 				initialize : function() {
-					console.log('Application initialized!');
+					var app = new MainView({
+						el : $('#content')
+					});
 				}
-				
 			};
 		}
 	);
