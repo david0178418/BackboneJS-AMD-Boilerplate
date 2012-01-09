@@ -15,7 +15,7 @@
 			'application'
 		],
 		function(App) {
-			App.init();
+			App.initialize();
 		}
 	);
 })();

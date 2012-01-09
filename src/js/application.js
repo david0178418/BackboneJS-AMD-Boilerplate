@@ -2,16 +2,16 @@
 	"use strict";
 	
 	define([
-		'views/viewStub'
-	],
+			'views/viewStub'
+		],
 		function() {
 			
 			return {
-				init : function() {
+				initialize : function() {
 					console.log('Application initialized!');
 				}
+				
 			};
-			
 		}
 	);
 })();

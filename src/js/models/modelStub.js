@@ -1,4 +1,4 @@
-(function(){
+(function() {
 	"use strict";
 	
 	define([
@@ -7,11 +7,9 @@
 		function(Backbone) {
 			
 			return Backbone.Model.extend({
-				
 				initialize : function() {
 					
 				}
-				
 			});
 		}
 	);
