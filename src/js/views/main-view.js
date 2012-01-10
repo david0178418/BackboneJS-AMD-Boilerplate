@@ -2,11 +2,12 @@
 	"use strict";
 	
 	define([
+			'jqueryLoader',
 			'underscore',
 			'backbone',
 			'text!templates/main.html'
 		],
-		function(_, Backbone, MainTemplate) {
+		function($, _, Backbone, MainTemplate) {
 			
 			return Backbone.View.extend({
 				template : _.template(MainTemplate),
@@ -17,7 +18,7 @@
 				},
 				
 				render : function() {
-					this.el.append(this.template({}));
+					$(this.el).append(this.template({}));
 					
 					return this;
 				}

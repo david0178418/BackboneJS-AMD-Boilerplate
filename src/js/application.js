@@ -3,14 +3,14 @@
 	
 	define([
 			'jqueryLoader',
-			'views/main'
+			'views/main-view'
 		],
 		function($, MainView) {
 			
 			return {
 				initialize : function() {
 					var app = new MainView({
-						el : $('#content')
+						el : $('#content')[0]
 					});
 				}
 			};
