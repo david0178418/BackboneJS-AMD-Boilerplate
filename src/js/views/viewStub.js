@@ -2,6 +2,7 @@
 	"use strict";
 	
 	define([
+			'jqueryLoader',
 			'underscore',
 			'backbone',
 		],
