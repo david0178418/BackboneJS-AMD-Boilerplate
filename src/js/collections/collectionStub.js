@@ -5,7 +5,7 @@
 			'underscore',
 			'backbone'
 		],
-		function(Backbone) {
+		function(_, Backbone) {
 			
 			return Backbone.Collection.extend({
 				initialize : function() {
