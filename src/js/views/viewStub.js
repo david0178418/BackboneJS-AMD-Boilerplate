@@ -9,7 +9,7 @@
 		function($, _, Backbone) {
 			
 			return Backbone.View.extend({
-				template : _.template(),
+				template : _.template(/*loaded template*/),
 				
 				initialize : function() {
 					this.render();
