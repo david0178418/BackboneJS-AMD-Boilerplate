@@ -5,7 +5,7 @@
 			'jquery'
 		],
 		function($) {
-			$.noConflict();
+			$.noConflict(true);
 			
 			return $;
 		}
