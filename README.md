@@ -1,6 +1,6 @@
 # Boilerplate for BackboneJS projects using RequireJS
 
-This is a simple boilerplate to quickly get projects going using Backbone and RequireJS.
+This is a simple boilerplate to quickly get projects going using Backbone and RequireJS.  A todo-list example can be found at [http://davidgranado.com/demos/todo-example/][1]
 
 ## What is this?
 
@@ -14,8 +14,12 @@ jQuery v1.7.1
 
 Underscore v1.2.4
 
-Backbone v0.5.3 branch https://raw.github.com/jrburke/backbone/optamd3/backbone.js  
+Backbone v0.5.3 branch https://raw.github.com/jrburke/backbone/optamd3/backbone.js
+
 NormalizeCSS 2011-11-04
+
+For more on why this branch of Backbone is being used, you can read my more in-depth post on the subject here: [http://www.davidgranado.com/2012/01/getting-jquery-1-7-andor-backbone-to-play-nicely-with-requirejs/][2]
+
 
 ## Getting started
 
@@ -50,9 +54,6 @@ The code is pretty simple and should give you an idea how to layout your app in 
 
 _Note: A router wasn't included by default.  Most applications require just one router meaning no need to stub.  You can just create one and insert into your app as needed_
 
-  
 
-
-Additionally, an example Todo example can be found at [http://davidgranado.com/demos/todo-example/][1]
-git 
    [1]: http://davidgranado.com/demos/todo-example/
+   [2]: http://www.davidgranado.com/2012/01/getting-jquery-1-7-andor-backbone-to-play-nicely-with-requirejs/
