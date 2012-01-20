@@ -6,10 +6,10 @@
 			//list of specs to run
 			specsPath + 'main-view-spec'
 		],
-		function(specStub) {
+		function(mainViewSpec) {
 			return {
 				initialize : function() {
-					specStub.test();
+					mainViewSpec.test();
 					
 					jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
 					jasmine.getEnv().execute();
