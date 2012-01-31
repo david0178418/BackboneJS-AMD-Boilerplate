@@ -12,9 +12,9 @@ RequireJS v1.0.4
 
 jQuery v1.7.1
 
-Underscore v1.2.4
+Underscore v1.3.1 fork https://github.com/amdjs/underscore
 
-Backbone v0.5.3 branch https://raw.github.com/jrburke/backbone/optamd3/backbone.js
+Backbone v0.9.0 fork https://github.com/amdjs/backbone
 
 NormalizeCSS 2011-11-04
 
