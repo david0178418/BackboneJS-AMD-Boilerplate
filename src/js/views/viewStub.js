@@ -16,7 +16,7 @@
 				},
 				
 				render : function() {
-					$(this.el).append(this.template(/*model/collection*/));
+					this.$el.append(this.template(/*model/collection*/));
 					
 					return this;
 				}
