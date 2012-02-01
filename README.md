@@ -18,7 +18,6 @@ Backbone v0.9.0 fork https://github.com/amdjs/backbone
 
 NormalizeCSS 2011-11-04
 
-For more on why this branch of Backbone is being used, you can read my more in-depth post on the subject here: [http://www.davidgranado.com/2012/01/getting-jquery-1-7-andor-backbone-to-play-nicely-with-requirejs/][2]
 
 ## Server Side Code(soon)
 
