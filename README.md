@@ -4,7 +4,7 @@ This is a simple boilerplate to quickly get projects going using Backbone and Re
 
 ## What is this?
 
-This is just a simple boilerplate to quickly get going with projects.  I got tired of recreating the same code, folder structure, etc, so I just put this up.  This is by no means all-inclusive, but I wanted to keep it as bare bones as possible for anyone to include whatever other libraries they wish.  For example, I tend to use templating libraries other than underscore.  But I don't want to be presumptive and ad any here when you may want to use a different one.  (There's plenty of opinionated-ness in the structure).
+This is just a simple boilerplate to quickly get going with projects.  I got tired of recreating the same code, folder structure, etc, so I just put this up.  This is by no means all-inclusive, but I wanted to keep it as bare bones as possible for anyone to include whatever other libraries they wish.  For example, I tend to use templating libraries other than underscore.  But I don't want to be presumptive and add any here when you may want to use a different one.  (There's already plenty of opinionated-ness in the structure).
 
 ## Included libraries
 
@@ -20,6 +20,9 @@ NormalizeCSS 2011-11-04
 
 For more on why this branch of Backbone is being used, you can read my more in-depth post on the subject here: [http://www.davidgranado.com/2012/01/getting-jquery-1-7-andor-backbone-to-play-nicely-with-requirejs/][2]
 
+## Server Side Code(soon)
+
+There will soon be some additional versions that will contain suggestions on rolling it in w/ your server side code.  First to come will be PHP integration with [Slim](http://www.slimframework.com/).  A Node an Ruby version will soon follow.
 
 ## Getting started
 
