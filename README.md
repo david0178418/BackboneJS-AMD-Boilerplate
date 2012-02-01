@@ -22,7 +22,7 @@ For more on why this branch of Backbone is being used, you can read my more in-d
 
 ## Server Side Code(soon)
 
-There will soon be some additional versions that will contain suggestions on rolling it in w/ your server side code.  First to come will be PHP integration with [Slim](http://www.slimframework.com/).  A Node an Ruby version will soon follow.
+There will soon be some additional versions that will contain suggestions on rolling it in w/ your server side code.  First to come will be PHP integration with [Slim](http://www.slimframework.com/).  A Node and Ruby version will soon follow.
 
 ## Getting started
 
