@@ -1,5 +1,6 @@
 (function() {
 	"use strict";
+	
 	var libsPath = '../../libs/js/'; //libsPath relative to 'basePath'
 	
 	require.config({

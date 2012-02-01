@@ -1,28 +1,24 @@
-(function() {
-	"use strict";
-	
-	define([
-			'jqueryLoader',
-			'underscore',
-			'backbone',
-			'text!templates/main.html'
-		],
-		function($, _, Backbone, MainTemplate) {
+define([
+		'underscore',
+		'backbone',
+		'text!templates/main.html'
+	],
+	function(_, Backbone, MainTemplate) {
+		"use strict";
+		
+		return Backbone.View.extend({
+			template : _.template(MainTemplate),
 			
-			return Backbone.View.extend({
-				template : _.template(MainTemplate),
+			initialize : function() {
 				
-				initialize : function() {
-					
-					this.render();
-				},
+				this.render();
+			},
+			
+			render : function() {
+				this.$el.append(this.template({}));
 				
-				render : function() {
-					this.$el.append(this.template({}));
-					
-					return this;
-				}
-			});
-		}
-	);
-})();
+				return this;
+			}
+		});
+	}
+);

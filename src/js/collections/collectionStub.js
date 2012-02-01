@@ -1,17 +1,14 @@
-(function() {
-	"use strict";
-	
-	define([
-			'underscore',
-			'backbone'
-		],
-		function(_, Backbone) {
-			
-			return Backbone.Collection.extend({
-				initialize : function() {
-					
-				}
-			});
-		}
-	);
-})();
+define([
+		'underscore',
+		'backbone'
+	],
+	function(_, Backbone) {
+		"use strict";
+		
+		return Backbone.Collection.extend({
+			initialize : function() {
+				
+			}
+		});
+	}
+);
