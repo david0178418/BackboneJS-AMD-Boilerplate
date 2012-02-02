@@ -18,11 +18,6 @@ Backbone v0.9.0 fork https://github.com/amdjs/backbone
 
 NormalizeCSS 2011-11-04
 
-
-## Server Side Code(soon)
-
-There will soon be some additional versions that will contain suggestions on rolling it in w/ your server side code.  First to come will be PHP integration with [Slim](http://www.slimframework.com/).  A Node and Ruby version will soon follow.
-
 ## Getting started
 
 To start, just download the boilerplate and point your browser to the index.html file in the root folder.  If everything is working, you should see "App Initialized!" in the window.
