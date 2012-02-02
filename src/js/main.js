@@ -10,7 +10,8 @@
 			underscore : libsPath + 'underscore-min',
 			backbone : libsPath + 'backbone-min'
 		},
-		baseUrl : 'src/js'
+		baseUrl : 'src/js',
+		urlArgs: "bust=" +  (new Date()).getTime()	//cache-busting for development
 	});
 	
 	require([
