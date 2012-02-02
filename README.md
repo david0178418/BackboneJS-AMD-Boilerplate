@@ -4,22 +4,19 @@ This is a simple boilerplate to quickly get projects going using Backbone and Re
 
 ## What is this?
 
-This is just a simple boilerplate to quickly get going with projects.  I got tired of recreating the same code, folder structure, etc, so I just put this up.  This is by no means all-inclusive, but I wanted to keep it as bare bones as possible for anyone to include whatever other libraries they wish.  For example, I tend to use templating libraries other than underscore.  But I don't want to be presumptive and ad any here when you may want to use a different one.  (There's plenty of opinionated-ness in the structure).
+This is just a simple boilerplate to quickly get going with projects.  I got tired of recreating the same code, folder structure, etc, so I just put this up.  This is by no means all-inclusive, but I wanted to keep it as bare bones as possible for anyone to include whatever other libraries they wish.  For example, I tend to use templating libraries other than underscore.  But I don't want to be presumptive and add any here when you may want to use a different one.  (There's already plenty of opinionated-ness in the structure).
 
 ## Included libraries
 
-RequireJS v1.0.4
+RequireJS v1.0.5
 
 jQuery v1.7.1
 
-Underscore v1.2.4
+Underscore v1.3.1 fork https://github.com/amdjs/underscore
 
-Backbone v0.5.3 branch https://raw.github.com/jrburke/backbone/optamd3/backbone.js
+Backbone v0.9.0 fork https://github.com/amdjs/backbone
 
 NormalizeCSS 2011-11-04
-
-For more on why this branch of Backbone is being used, you can read my more in-depth post on the subject here: [http://www.davidgranado.com/2012/01/getting-jquery-1-7-andor-backbone-to-play-nicely-with-requirejs/][2]
-
 
 ## Getting started
 
