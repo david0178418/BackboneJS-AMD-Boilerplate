@@ -1,7 +1,7 @@
 define([
 		'jqueryLoader',	//Included by default, but needed in less instances now that views have cached '$el'
-		'underscore',
-		'backbone',
+		'underscoreLoader',
+		'backboneLoader',
 	],
 	function(
 		$,

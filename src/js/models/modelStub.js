@@ -1,5 +1,5 @@
 define([
-		'backbone'
+		'backboneLoader'
 	],
 	function(
 		Backbone
