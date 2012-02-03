@@ -1,7 +1,9 @@
 define([
 		'views/main-view'
 	],
-	function(MainView) {
+	function(
+		MainView
+	) {
 		"use strict";
 		
 		return {
