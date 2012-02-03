@@ -1,6 +1,6 @@
 define([
-		'underscore',
-		'backbone'
+		'underscoreLoader',
+		'backboneLoader'
 	],
 	function(
 		_,
