@@ -2,7 +2,10 @@ define([
 		'underscore',
 		'backbone'
 	],
-	function(_, Backbone) {
+	function(
+		_,
+		Backbone
+	) {
 		"use strict";
 		
 		return Backbone.Collection.extend({
