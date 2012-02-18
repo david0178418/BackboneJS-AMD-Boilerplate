@@ -8,7 +8,7 @@ This is just a simple boilerplate to quickly get going with projects.  I got tir
 
 ## Included libraries
 
-RequireJS v1.0.5
+RequireJS v1.0.6
 
 jQuery v1.7.1
 
