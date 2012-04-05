@@ -5,7 +5,7 @@
 	
 	require.config({
 		paths : {
-			jquery : libsPath + 'jquery-1.7.1',		//return module but also keeps it in the global scope
+			jquery : libsPath + 'jquery',		//return module but also keeps it in the global scope
 			jqueryLoader : libsPath + 'jquery-loader',	//loads module and removes it from the global scope
 			underscore : libsPath + 'underscore',
 			underscoreLoader: libsPath + 'underscore-loader',
