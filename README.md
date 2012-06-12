@@ -8,11 +8,11 @@ This is just a simple boilerplate to quickly get going with projects.  I got tir
 
 ## Included libraries
 
-RequireJS v1.0.7
+RequireJS v2.0.1
 
 jQuery v1.7.2
 
-Underscore v1.3.1 fork https://github.com/amdjs/underscore
+Underscore v1.3.3 fork https://github.com/amdjs/underscore
 
 Backbone v0.9.2 fork https://github.com/amdjs/backbone
 
