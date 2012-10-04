@@ -1,3 +1,5 @@
+**NOTE:**  This is largely irrelevant since RequireJS now has [a shim to support older "global" style scripts][3].
+
 # Boilerplate for BackboneJS projects using RequireJS
 
 This is a simple boilerplate to quickly get projects going using Backbone and RequireJS.  A todo-list example can be found at [http://davidgranado.com/demos/todo-example/][1]
@@ -54,3 +56,4 @@ _Note: A router wasn't included by default.  Most applications require just one 
 
    [1]: http://davidgranado.com/demos/todo-example/
    [2]: http://www.davidgranado.com/2012/01/getting-jquery-1-7-andor-backbone-to-play-nicely-with-requirejs/
+   [3]: http://requirejs.org/docs/api.html#config-shim
